@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.header{
+    width: 100%;
+    text-align: left;
+    padding: 1% 0% 0% 3%;
+}
+body {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F3F4F6;
+}
+
+.header {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background-color: #0A3871;
+}
+
+.header img {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.left-section, .right-section {
+    width: 50%;
+    padding: 20px;
+    font-size: #0A3871;
+
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#validationMessage {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#encryptButton {
+    background-color: #0A3871;
+    font-family: "Inter";
+    border-radius: 8px;
+}
+
+#decryptButton {
+    background-color: #D8DFE8;
+    color: black;
+    font-family: "Inter";
+    border-radius: 8px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholder-image {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #0A3871;
+    color: white;
+}

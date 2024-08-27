@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="Logo.png" alt="Logo">
+    </header>
+    <div class="container">
+        <div class="left-section">
+            <textarea id="inputText" placeholder="Ingrese su texto aquí..." rows="10"></textarea>
+            <p id="validationMessage">Solo se permiten letras minúsculas y sin acentos.</p>
+            <div class="buttons">
+                <button id="encryptButton" onclick="encriptar()">Encriptar</button>
+                <button id="decryptButton" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-section">
+            <img src="Muñeco.png" alt="Muñeco" class="placeholder-image">
+            <textarea id="outputText" readonly rows="10"></textarea>
+        </div>
+    </div>
+    <footer>
+        <p>Nicolás Alejandro Rivera Leal - 2024</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
